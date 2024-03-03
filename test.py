@@ -1,5 +1,5 @@
-#from openai import OpenAI
-import openai.OpenAI as OpenAI
+from openai import OpenAI
+#import openai.OpenAI as OpenAI
 import streamlit as st
 
 st.title("ChatGPT-like clone")
